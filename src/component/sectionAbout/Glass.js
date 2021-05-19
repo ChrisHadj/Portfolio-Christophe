@@ -51,6 +51,7 @@ background-clip: border-box;
 cursor: pointer;
 `;
 
+
 const StyledImg = styled.img`
     width: 200px;
     height: auto;
