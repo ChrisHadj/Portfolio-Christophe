@@ -1,13 +1,26 @@
 import React from "react";
-import { HeaderContainer, HeaderContent, HeaderItems } from "./Header.style";
+import Fade from "react-reveal/Fade";
+import {
+  HeaderContainer,
+  HeaderContent,
+  HeaderItems,
+  HeaderTitle,
+  HeaderDeco,
+  HeaderH,
+} from "./Header.style";
 
 const Headers = () => {
   return (
     <HeaderContainer>
       <HeaderContent>
-        <HeaderItems>
-            
-        </HeaderItems>
+        <Fade bottom>
+          <HeaderItems>Christophe Hadjigeorgiou</HeaderItems>
+        </Fade>
+        <HeaderH>
+          <HeaderDeco />
+          <HeaderTitle>Front-End Developer</HeaderTitle>
+          <HeaderDeco />
+        </HeaderH>
       </HeaderContent>
     </HeaderContainer>
   );

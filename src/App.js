@@ -1,9 +1,14 @@
 import "./App.css";
-import Header from './component/pages/Header';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Header from "./component/section/Header";
+import AboutMe from "./component/section/AboutMe";
 
 function App() {
   return (
-    <Header />
+    <div>
+      <Header />
+      <AboutMe />
+    </div>
   );
 }
 
